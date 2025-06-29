@@ -1,34 +1,33 @@
-
-````markdown
 # 📚 Book Review API
 
 A fully functional backend service for managing books and their reviews, built with **FastAPI**, **PostgreSQL**, **Redis**, and **Alembic**.
+
 ---
 
 ## 🚀 Features
 
-- CRUD APIs for books and their reviews
-- Redis caching for `/books` endpoint
-- PostgreSQL with Alembic for migrations
-- Modular project structure
-- Swagger and ReDoc auto-generated docs
-- Environment-based configuration using `.env`
-- Unit and integration tests with Pytest
+- CRUD APIs for books and their reviews  
+- Redis caching for `/books` endpoint  
+- PostgreSQL with Alembic for migrations  
+- Modular project structure  
+- Swagger and ReDoc auto-generated docs  
+- Environment-based configuration using `.env`  
+- Unit and integration tests with Pytest  
 
 ---
 
 ## 🧱 Tech Stack
 
-| Layer        | Tool/Library           |
-|--------------|------------------------|
-| Language     | Python 3.8+            |
-| Framework    | FastAPI                |
-| Database     | PostgreSQL             |
-| ORM          | SQLAlchemy             |
-| Caching      | Redis                  |
-| Migrations   | Alembic                |
-| Testing      | Pytest, TestClient     |
-| Docs         | Swagger (OpenAPI)      |
+| Layer      | Tool/Library       |
+|------------|--------------------|
+| Language   | Python 3.8+        |
+| Framework  | FastAPI            |
+| Database   | PostgreSQL         |
+| ORM        | SQLAlchemy         |
+| Caching    | Redis              |
+| Migrations | Alembic            |
+| Testing    | Pytest, TestClient |
+| Docs       | Swagger (OpenAPI)  |
 
 ---
 
@@ -39,7 +38,7 @@ A fully functional backend service for managing books and their reviews, built w
 ```bash
 git clone https://github.com/Ankitmi12/ProcessVenue_Assesment.git
 cd ProcessVenue_Assesment/book_review_api
-````
+```
 
 ---
 
@@ -178,20 +177,6 @@ book_review_api/
 └── README.md
 ```
 
----
-
-## 📽 Demo Walkthrough Script (for 5-minute presentation)
-
-1. **Show Swagger UI**
-2. **POST /books** → Create a book
-3. **POST /books/{id}/reviews** → Add review
-4. **GET /books** → Show `Cache MISS`, fetches from DB
-5. **GET /books** again → Show `Cache HIT`, fetched from Redis
-6. **Show logs** with printed messages
-7. **Walk through code structure**
-8. **Mention ORM, caching, and test strategy**
-
----
 
 ## 🧠 Author
 
