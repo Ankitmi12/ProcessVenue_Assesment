@@ -182,7 +182,7 @@ book_review_api/
 
 **Ankit Mishra**
 💼 GitHub: [@Ankitmi12](https://github.com/Ankitmi12)
-📧 Email: [ankitmishra.dev@gmail.com](mailto:ankitmishra.dev@gmail.com)
+📧 Email: [ankitkrmishra9056@gmail.com](mailto:ankitkrmishra9056@gmail.com)
 
 ---
 
